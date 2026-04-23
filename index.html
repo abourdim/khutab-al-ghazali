@@ -40,7 +40,7 @@
 <main class="content">
   <section class="panel" id="panel-home"><div class="daily-card" id="dailyCard"></div><div class="home-grid" id="homeGrid"></div></section>
   <section class="panel" id="panel-cards"><h2 class="section-title" id="cardsTitle">مختارات من الخطب</h2><p class="section-desc" id="cardsDesc">٢٠ مقتطفاً من أروع خطب الشيخ</p><div id="cardsContainer"></div></section>
-  <section class="panel" id="panel-topics"><h2 class="section-title" id="topicsTitle">المواضيع الكبرى</h2><p class="section-desc" id="topicsDesc">المحاور التي دارت حولها خطب الشيخ</p><div id="topicsContainer"></div></section>
+  
   <section class="panel" id="panel-quiz"><h2 class="section-title" id="quizTitle">اختبر معلوماتك</h2><p class="section-desc" id="quizDesc">ما مدى معرفتك بخطب الشيخ؟</p><div id="quizContainer"></div><div id="quizResult" class="quiz-result hidden"></div></section>
   <section class="panel active" id="panel-about"><div id="aboutContainer"></div></section>
 </main>
@@ -51,7 +51,7 @@
 <button id="scrollTop" class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8593;</button>
 <button id="duaBtn" class="dua-float" onclick="toggleDuaPanel()">🤲</button>
 <div id="duaPanel" class="dua-panel hidden"><div class="dua-panel-header"><span id="duaPanelTitle">🤲 أدعية</span><button onclick="toggleDuaPanel()" class="help-close">&#10005;</button></div><div id="duaPanelContent" class="dua-panel-body"></div></div>
-<nav class="tabs" role="tablist"><div class="tabs-meta"><div class="ticker-wrap"><div class="ticker-text" id="tickerText"></div></div></div><div class="tabs-row"><button class="tab" data-tab="home"><span class="ti">🏠</span><span class="tl" id="tabHome">الرئيسية</span></button><button class="tab" data-tab="cards"><span class="ti">🎤</span><span class="tl" id="tabCards">الخطب</span></button><button class="tab" data-tab="topics"><span class="ti">📂</span><span class="tl" id="tabTopics">المواضيع</span></button><button class="tab" data-tab="quiz"><span class="ti">🤔</span><span class="tl" id="tabQuiz">اختبار</span></button><button class="tab active" data-tab="about"><span class="ti">📖</span><span class="tl" id="tabAbout">الكتاب</span></button></div></nav>
+<nav class="tabs" role="tablist"><div class="tabs-meta"><div class="ticker-wrap"><div class="ticker-text" id="tickerText"></div></div></div><div class="tabs-row"><button class="tab" data-tab="home"><span class="ti">🏠</span><span class="tl" id="tabHome">الرئيسية</span></button><button class="tab" data-tab="cards"><span class="ti">🎤</span><span class="tl" id="tabCards">الخطب</span></button><button class="tab" data-tab="quiz"><span class="ti">🤔</span><span class="tl" id="tabQuiz">اختبار</span></button><button class="tab active" data-tab="about"><span class="ti">📖</span><span class="tl" id="tabAbout">الكتاب</span></button></div></nav>
 <script src="app.js"></script>
 <script src="narrator.js"></script>
 <script src="genius.js"></script><script>document.addEventListener('DOMContentLoaded',function(){if(window.geniusInit)geniusInit({particles:{color1:'rgba(0,105,92,0.25)',color2:'rgba(128,203,196,0.15)',count:18},appKey:'kg',darkTheme:'night'})});</script>
